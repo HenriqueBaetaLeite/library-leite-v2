@@ -1,0 +1,974 @@
+{
+  "books": [
+    {
+      "id": "1",
+       "nome": "Escolha você",
+       "autor": "James Altucher",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/416bFnpBm2L._AC_SY400_.jpg"
+     },
+  
+     {
+       "id": "2",
+       "nome": "Geração de valor I",
+       "autor": "Flávio Augusto da Silva",
+       "categoria": "não-ficção",
+       "lidoPor": ["Fernando", "Henrique"],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/81wljUMHeuL.jpg"
+     },
+  
+     {
+       "id": "3",
+       "nome": "Geração de valor II",
+       "autor": "Flávio Augusto da Silva",
+       "categoria": "não-ficção",
+       "lidoPor": ["Fernando", "Henrique"],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/51lrL5bWYqL.jpg"
+     },
+     
+     {
+       "id": "4",
+       "nome": "Geração de valor III",
+       "autor": "Flávio Augusto da Silva",
+       "categoria": "não-ficção",
+       "lidoPor": ["Fernando", "Henrique"],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/81vhFnybcCL.jpg"
+     },
+     
+     {
+       "id": "5",
+       "nome": "Ansiedade",
+       "autor": "Augusto Cury",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/71K63fWqCAL.jpg"
+     },
+  
+     {
+       "id": "6",
+       "nome": "Ansiedade 2",
+       "autor": "Augusto Cury",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/81pogEkm5+L.jpg"
+     },    
+     
+     {
+       "id": "7",
+       "nome": "Blink a decisão num piscar de olhos",
+       "autor": "Malcom Gladwell",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/41QDhMj+34L.jpg"
+     },       
+  
+     {
+       "id": "8",
+       "nome": "Seja foda!",
+       "autor": "Caio Carneiro",
+       "categoria": "não-ficção",
+       "lidoPor": ["Fernando", "Henrique"],
+       "img": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12110827/1007686371.jpg?v=637142254732630000"
+     },
+  
+     {
+       "id": "9",
+       "nome": "A estrada do Futuro",
+       "autor": "Bill Gates",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/41Uwu-D3ueL._AC_SY400_.jpg"
+     },
+  
+     {
+       "id": "10",
+       "nome": "O Físico",
+       "autor": "Noah Gordon",
+       "categoria": "ficção",
+       "lidoPor": [],
+       "img": "https://cache.skoob.com.br/local/images//B-WzYHbabXi_uLrl9rqatCOWzrM=/300x0/center/top/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/1774/O_FISICO_1325797968B.jpg"
+     },
+  
+     {
+       "id": "11",
+       "nome": "O recurso",
+       "autor": "John Grisham",
+       "categoria": "ficção",
+       "lidoPor": [],
+       "img": "https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/_cc5535f0001a493b3848a239fab60ee305f903cc.jpg"
+     },
+  
+     {
+       "id": "12",
+       "nome": "O Sócio",
+       "autor": "John Grisham",
+       "categoria": "ficção",
+       "lidoPor": [],
+       "img": "https://2.bp.blogspot.com/_Hi20my_Eaxo/Sf4pawvCCpI/AAAAAAAAAdo/11Lo0s5olwo/s320/o_socio.jpg"
+     },
+  
+     {
+       "id": "13",
+       "nome": "1808",
+       "autor": "Laurentino Gomes",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/916Ht6b0TjL.jpg"
+     },
+  
+     {
+       "id": "14",
+       "nome": "1822",
+       "autor": "Laurentino Gomes",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/41FWZC1R-IL._SX307_BO1,204,203,200_.jpg"
+     },
+  
+     {
+       "id": "15",
+       "nome": "A Cabana",
+       "autor": "William P. Young",
+       "categoria": "ficção",
+       "lidoPor": [],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/91eXvRufnFL.jpg"
+     },
+  
+     {
+       "id": "16",
+       "nome": "Encontre Deus na Cabana",
+       "autor": "William P. Young",
+       "categoria": "ficção",
+       "lidoPor": [],
+       "img": "https://lojasaraiva.vteximg.com.br/arquivos/ids/9193988/1006563853.jpg?v=637103720412030000"
+     },
+  
+     {
+       "id": "17",
+       "nome": "Ouro",
+       "autor": "Chris Cleave",
+       "categoria": "ficção",
+       "lidoPor": ["Henrique"],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/51yiIS2yxDL.jpg"
+     },
+  
+     {
+       "id": "18",
+       "nome": "Poder & manipulação",
+       "autor": "Jacob Petry",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/71dX9V+FRKL.jpg"
+     },
+  
+     {
+       "id": "19",
+       "nome": "Mindset",
+       "autor": "Carol S. Dweck",
+       "categoria": "não-ficção",
+       "lidoPor": ["Fernando", "Henrique"],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/81OB0tom28L.jpg"
+     },
+  
+     {
+       "id": "20",
+       "nome": "Reinicie",
+       "autor": "Jon Acuff",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/61n69V3+PLL.jpg"
+     },
+  
+     {
+       "id": "21",
+       "nome": "Contágio",
+       "autor": "Jonah Berger",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/512RjKlpjZL.jpg"
+     },
+  
+     {
+       "id": "22",
+       "nome": "O seu primeiro milhão",
+       "autor": "Pedro Queiroga Carrilho",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/51gzK+0XuwL._SX324_BO1,204,203,200_.jpg"
+     },
+  
+     {
+       "id": "23",
+       "nome": "A tríade do tempo",
+       "autor": "Christian Barbosa",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/71xbMtThHVL.jpg"
+     },
+  
+     {
+       "id": "24",
+       "nome": "O poder da ação",
+       "autor": "Paulo Vieira",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/41BZRzELoYL._SX340_BO1,204,203,200_.jpg"
+     },
+  
+     {
+       "id": "25",
+       "nome": "O monge e o executivo",
+       "autor": "James C. Hunter",
+       "categoria": "não-ficção",
+       "lidoPor": ["Fernando", "Henrique"],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/91m%2BLcPjHeL.__BG0,0,0,0_FMpng_AC_UL600_SR393,600_.jpg"
+     },
+  
+     {
+       "id": "26",
+       "nome": "A linguagem corporal dos líderes",
+       "autor": "Carol Kinsey Goman",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/81i-c7nZAtL.jpg"
+     },
+  
+     {
+       "id": "27",
+       "nome": "Essencialismo",
+       "autor": "Greg McKeown",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/817lFvoZqwL.jpg"
+     },
+  
+     {
+       "id": "28",
+       "nome": "O código da mente extraordinária",
+       "autor": "Vishen Lakhiani",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/610Ei75DIXL.jpg"
+     },
+  
+     {
+       "id": "29",
+       "nome": "Como gerenciar e enfrentar desafios",
+       "autor": "Raimundo Godoi",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/41kmjl6c5OL._SX342_BO1,204,203,200_.jpg"
+     },
+  
+     {
+       "id": "30",
+       "nome": "Dez passos para alcançar seus sonhos",
+       "autor": "Adriana Maria Queiróz",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": "https://images-na.ssl-images-amazon.com/images/I/51VysM+BpOL._SX332_BO1,204,203,200_.jpg"
+     },
+  
+     {
+       "id": "31",
+       "nome": "Seja o empresário da sua ideia",
+       "autor": "Natanael Oliveira",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "32",
+       "nome": "A startup enxuta",
+       "autor": "Eric Ries",
+       "categoria": "não-ficção",
+       "lidoPor": ["Fernando", "Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "33",
+       "nome": "O poder do hábito",
+       "autor": "Charles Duhigg",
+       "categoria": "não-ficção",
+       "lidoPor": ["Fernando", "Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "34",
+       "nome": "Rotinas criativas",
+       "autor": "Alexandre Teixeira",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "35",
+       "nome": "Melhores práticas",
+       "autor": "Peter Drucker",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "36",
+       "nome": "A gestão no Brasil",
+       "autor": "Carlos Bottrel Coutinho",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "37",
+       "nome": "Como motivar pessoas e equipes a agir",
+       "autor": "Simon Sinek",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "38",
+       "nome": "Pessoas de resultado",
+       "autor": "Luiz Fernando Garcia",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "39",
+       "nome": "Equilíbrio e resultado",
+       "autor": "Christian Barbosa",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "40",
+       "nome": "Criativo e produtivo",
+       "autor": "Josh Linkner",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "41",
+       "nome": "A arte da criatividade",
+       "autor": "Rod Judkins",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "42",
+       "nome": "Business Model You",
+       "autor": "Tim Clark",
+       "categoria": "não-ficção",
+       "lidoPor": ["Fernando", "Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "43",
+       "nome": "Por que fazemos o que fazemos?",
+       "autor": "Mario Sergio Cortella",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "44",
+       "nome": "O teste do marshmallow",
+       "autor": "Walter Mischel",
+       "categoria": "não-ficção",
+       "lidoPor": ["Fernando", "Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "45",
+       "nome": "Os segredos das apresentações poderosas",
+       "autor": "Roberto Shinyashiki",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "46",
+       "nome": "O cérebro de alta performance",
+       "autor": "Luiz Fernando Garcia",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "47",
+       "nome": "Comece pelo porquê",
+       "autor": "Simon Sinek",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "48",
+       "nome": "Como se tornar um líder servidor",
+       "autor": "James C. Hunter",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "49",
+       "nome": "De volta ao mosteiro",
+       "autor": "James C. Hunter",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "50",
+       "nome": "Faça como Steve Jobs",
+       "autor": "Carmine Gallo",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "51",
+       "nome": "Inovação - a arte de Steve Jobs",
+       "autor": "Carmine Gallo",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "52",
+       "nome": "Incansáveis",
+       "autor": "Maurício Benvenutti",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "53",
+       "nome": "A arte da não conformidade",
+       "autor": "Chris Guillebeau",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "54",
+       "nome": "Super-humanos",
+       "autor": "Steven Kotler",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "55",
+       "nome": "Filhos brilhantes alunos fascinantes",
+       "autor": "Augusto Cury",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+     {
+       "id": "56",
+       "nome": "Pais brilhantes professores fascinantes",
+       "autor": "Augusto Cury",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "57",
+       "nome": "As seis lições",
+       "autor": "Ludwing Von Mises",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "58",
+       "nome": "Uma vida consciente do tempo",
+       "autor": "Stephen R. Covey",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "59",
+       "nome": "Fudeu Geral",
+       "autor": "Mark Manson",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "60",
+       "nome": "Você está louco!",
+       "autor": "Ricardo Semler",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "61",
+       "nome": "Adeus, aposentadoria",
+       "autor": "Gustavo Cerbasi",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "62",
+       "nome": "Como organizar sua vida financeira",
+       "autor": "Gustavo Cerbasi",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "63",
+       "nome": "Dinheiro à luz da fé",
+       "autor": "Denis Duarte",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "64",
+       "nome": "As sete virtudes do líder amoroso",
+       "autor": "João Carlos Almeida",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "65",
+       "nome": "O principe",
+       "autor": "Niccolò di Bernardo dei Machiavelli",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "66",
+       "nome": "Guia politicamente incorreto da história do Brasil",
+       "autor": "Leandro Narloch",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "67",
+       "nome": "O capital",
+       "autor": "Thomas Piketty",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "68",
+       "nome": "O livro do amor",
+       "autor": "Regina Navarro Lins",
+       "categoria": "ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "69",
+       "nome": "Ame o que é seu",
+       "autor": "Emily Griffin",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "70",
+       "nome": "Nietzsche para estressados",
+       "autor": "Allan Percy",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "71",
+       "nome": "O manipulador",
+       "autor": "John Grisham",
+       "categoria": "ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "72",
+       "nome": "O Hobbit",
+       "autor": "J.R.R. Tolkien",
+       "categoria": "ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "73",
+       "nome": "O dia da caça",
+       "autor": "James Patterson",
+       "categoria": "ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "74",
+       "nome": "Strange Angels",
+       "autor": "Lili St. Crow",
+       "categoria": "ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "75",
+       "nome": "A exceção",
+       "autor": "Chistian Jungersen",
+       "categoria": "ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "76",
+       "nome": "A menina que roubava livros",
+       "autor": "Markus Zusak",
+       "categoria": "ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "77",
+       "nome": "Só pode ser brincadeira Sr. Feyman!",
+       "autor": "Richard P. Feyman",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "78",
+       "nome": "Psi-Q",
+       "autor": "Ben Ambridge",
+       "categoria": "ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "79",
+       "nome": "As regras de ouro",
+       "autor": "Bob Bowman",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "80",
+       "nome": "Sonho grande",
+       "autor": "Cristiane Correa",
+       "categoria": "não-ficção",
+       "lidoPor": ["Henrique"],
+       "img": ""
+     },
+  
+     {
+       "id": "81",
+       "nome": "Criatividade S.A.",
+       "autor": "Ed Catmull",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "82",
+       "nome": "A ordem natural",
+       "autor": "Carlos Alberto Sacheri",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "83",
+       "nome": "A sutil arte de ligar o foda-se",
+       "autor": "Joana Faro",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "84",
+       "nome": "Me poupe",
+       "autor": "Nathalia Arcuri",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "85",
+       "nome": "De zero a um",
+       "autor": "Peter Thiel",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "86",
+       "nome": "Do mil ao milhão",
+       "autor": "Thiago Nigro",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "87",
+       "nome": "Como chegar ao sim com você mesmo",
+       "autor": "William Ury",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "88",
+       "nome": "Originais",
+       "autor": "Adam Grant",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "89",
+       "nome": "Dar e receber",
+       "autor": "Adam Grant",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+   
+     {
+       "id": "90",
+       "nome": "Sobre fibras e gente",
+       "autor": ["Bruno Fernandes", "Chico Barbosa"],
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+   
+     {
+       "id": "91",
+       "nome": "Obrigado pelo feedback",
+       "autor": ["Douglas Stone", "Sheila Heen"],
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+   
+     {
+       "id": "92",
+       "nome": "Empreendedorismo",
+       "autor": "José Dornelas",
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+   
+     {
+       "id": "93",
+       "nome": "Fora da curva",
+       "autor": ["Florian Bartunek", "Giuliana Napolitano", "Pierre Moreau"],
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+   
+     {
+       "id": "94",
+       "nome": "Descubra seus pontos fortes",
+       "autor": ["Marcus Buckinghan", "Donald O. Clifton"],
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+   
+     {
+       "id": "95",
+       "nome": "Os 7 princípios da persuasão",
+       "autor": ["Bill McGowan", "Alisa Bowman"],
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+   
+     {
+       "id": "96",
+       "nome": "Comunicar para liderar",
+       "autor": ["Leny Kyrillos", "Milton Jung"],
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+   
+     {
+       "id": "97",
+       "nome": "As 16 leis do sucesso",
+       "autor": ["Napoleon Hill", "Jacob Petry"],
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+   
+     {
+       "id": "98",
+       "nome": "A mente acima do dinheiro",
+       "autor": ["Brad Klontz", "Ted Klontz"],
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+   
+     {
+       "id": "99",
+       "nome": "Encontre Deus na Cabana",
+       "autor": "Randal Rauser",
+       "categoria": "ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+   
+     {
+       "id": "100",
+       "nome": "Em que crêem os que não crêem?",
+       "autor": ["Umberto Eco", "Carlo Maria Martini"],
+       "categoria": "não-ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "101",
+       "nome": "Amanhecer",
+       "autor": "Stephene Meyer",
+       "categoria": "ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "102",
+       "nome": "Eclipse",
+       "autor": "Stephene Meyer",
+       "categoria": "ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "103",
+       "nome": "Lua Nova",
+       "autor": "Stephene Meyer",
+       "categoria": "ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "104",
+       "nome": "Crepúsculo",
+       "autor": "Stephene Meyer",
+       "categoria": "ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "105",
+       "nome": "O caçador de Pipas",
+       "autor": "Khaled Hosseini",
+       "categoria": "ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "106",
+       "nome": "O mago",
+       "autor": "Fernando Morais",
+       "categoria": "ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "107",
+       "nome": "O Aleph",
+       "autor": "Paulo Coelho",
+       "categoria": "ficção",
+       "lidoPor": [],
+       "img": ""
+     },
+  
+     {
+       "id": "108",
+       "nome": "O poder do fracasso",
+       "autor": "Sarah Lewis",
+       "categoria": "ficção",
+       "lidoPor": [],
+       "img": ""
+     }
+   ]
+}
