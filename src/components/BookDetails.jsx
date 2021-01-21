@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import api from '../services/api';
 
-const Books = () => {
-  const [books, setBooks] = useState([]);
+const BookDetails = ({ id }) => {
+  const [book, setBook] = useState([]);
 
   useEffect(() => {
-    api.getAllBooks().then((books) => setBooks(books));
+    api.getBook(id).then((book) => setBook(book));
   }, []);
 
   const loading = 'Carregando...';
@@ -13,18 +13,16 @@ const Books = () => {
   return (
     <div>
       <h2>Books</h2>
-      {books.length === 0
+      {book.length === 0
         ? loading
-        : books.map(({ id, nome, img, autor }) => (
+        : book.map(({ id, nome, img }) => (
             <div key={id}>
-              <p>{autor}</p>
               <p>{nome}</p>
               <img src={img} alt="" width="100px" />
-              <a href={`https://library-leite-json.herokuapp.com/books/${id}`}>Detalhes</a>
             </div>
           ))}
     </div>
   );
 };
 
-export default Books;
+export default BookDetails;
