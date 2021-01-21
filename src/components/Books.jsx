@@ -5,7 +5,7 @@ const Books = () => {
   const [books, setBooks] = useState([]);
 
   useEffect(() => {
-    api.getAllBooks().then((books) => setBooks(books));
+    api.getAllBooks().then(async (books) => await setBooks(books));
   }, []);
 
   const loading = 'Carregando...';
