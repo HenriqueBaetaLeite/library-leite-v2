@@ -1,28 +1,26 @@
 import React, { useEffect, useState } from 'react';
-import api from '../services/api';
+import { getBookById } from '../services/api';
+import CardBooks from './CardBooks';
 
 const BookDetails = ({ id }) => {
-  const [book, setBook] = useState([]);
+  const [book, setBook] = useState(null);
 
   useEffect(() => {
     setTimeout(() => {
-      api.getBookById(id).then((book) => setBook(book));
+      getBookById('7kSAnE2').then((book) => setBook(book));
     }, 5000);
   }, []);
 
-  const loading = 'Carregando...';
+  const loading = <p>Carregando</p>;
 
   return (
     <div>
-      <h2>Books</h2>
-      {book.length === 0
-        ? loading
-        : book.map(({ id, nome, img }) => (
-            <div key={id}>
-              <p>{nome}</p>
-              <img src={img} alt="" width="100px" />
-            </div>
-          ))}
+      <h2>Books Detail</h2>
+      {!book ? (
+        loading
+      ) : (
+        <CardBooks id={book.id} nome={book.nome} img={book.img} autor={book.autor} />
+      )}
     </div>
   );
 };

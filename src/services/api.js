@@ -14,7 +14,7 @@ const getAllBooks = () =>
   });
 
 const getBookById = (id) => {
-  return fetch(URL + '/' + id)
+  return fetch(pureURL + '/' + id)
     .then((books) => books.json())
     .catch((err) => err.reponse);
 };
