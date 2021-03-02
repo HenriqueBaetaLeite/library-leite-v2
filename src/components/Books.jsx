@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import api from '../services/api';
+import CardBooks from './CardBooks';
 
 const Books = () => {
   const [books, setBooks] = useState([]);
@@ -16,12 +17,7 @@ const Books = () => {
       {books.length === 0
         ? loading
         : books.map(({ id, nome, img, autor }) => (
-            <div key={id}>
-              <p>{autor}</p>
-              <p>{nome}</p>
-              <img src={img} alt="" width="100px" />
-              <a href={`https://library-leite-json.herokuapp.com/books/${id}`}>Detalhes</a>
-            </div>
+            <CardBooks key={id} id={id} nome={nome} img={img} autor={autor} />
           ))}
     </div>
   );

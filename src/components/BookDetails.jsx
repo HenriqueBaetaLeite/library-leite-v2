@@ -5,7 +5,9 @@ const BookDetails = ({ id }) => {
   const [book, setBook] = useState([]);
 
   useEffect(() => {
-    api.getBook(id).then((book) => setBook(book));
+    setTimeout(() => {
+      api.getBookById(id).then((book) => setBook(book));
+    }, 5000);
   }, []);
 
   const loading = 'Carregando...';
