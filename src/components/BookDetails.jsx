@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { getBookById } from '../services/api';
-import CardBooks from './CardBooks';
+import { Link } from 'react-router-dom';
 
-const BookDetails = ({ id }) => {
+const CardBookDetails = (props) => {
   const [book, setBook] = useState(null);
+
+  const { id } = props.match.params;
 
   useEffect(() => {
     setTimeout(() => {
-      getBookById('7kSAnE2').then((book) => setBook(book));
+      getBookById(id).then((book) => setBook(book));
     }, 5000);
   }, []);
 
@@ -15,14 +17,19 @@ const BookDetails = ({ id }) => {
 
   return (
     <div>
-      <h2>Books Detail</h2>
+      <h2>Books Detail test</h2>
       {!book ? (
         loading
       ) : (
-        <CardBooks id={book.id} nome={book.nome} img={book.img} autor={book.autor} />
+        <div>
+          <h2>{book.nome}</h2>
+          <h4>{book.autor}</h4>
+          <img width="90px" src={book.img} alt={book.nome}/>
+          <Link to="/books">voltar</Link>
+        </div>
       )}
     </div>
   );
 };
 
-export default BookDetails;
+export default CardBookDetails;

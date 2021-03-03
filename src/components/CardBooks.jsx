@@ -1,15 +1,37 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+import { Card, CardHeader, CardMedia, CardActions, Button } from '@material-ui/core';
+
+import { makeStyles } from '@material-ui/styles';
+
+const useStyles = makeStyles({
+  cardActions: {
+    margin: 8,
+    justifyContent: 'space-around',
+  },
+  card: {
+    marginBottom: 10,
+    backgroundImage: 'linear-gradient(72deg, #ddf4, #ffffff, #fa3, #ffffff)',
+  },
+});
 
 const CardBooks = (props) => {
   const { id, nome, img, autor } = props;
+  const classes = useStyles();
   return (
-    <div>
-      <h2>{nome}</h2>
-      <h4>{autor}</h4>
-      <img width="100px" src={img} alt={`capa do livro ${nome}`} />
-      <Link to={`/books/${id}`}>Detalhes</Link>
-    </div>
+    <Card className={classes.card}>
+      <CardHeader title={nome} subheader={autor} />
+      <CardMedia style={{ height: '190px' }} image={img} />
+
+      <CardActions className={classes.cardActions}>
+        <Button size="small" variant="contained" color="primary">
+          Editar
+        </Button>
+        <Button size="small" variant="outlined" color="secondary">
+          Deletar
+        </Button>
+      </CardActions>
+    </Card>
   );
 };
 
